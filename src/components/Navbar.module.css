@@ -1,0 +1,9 @@
+.navbar {
+  /* opacity: 0; */
+}
+
+.appBar {
+  background-color: transparent;
+  box-shadow: none;
+  /* backdrop-filter: 'blur(10px)'; */
+}
