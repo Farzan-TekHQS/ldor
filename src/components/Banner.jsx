@@ -1,5 +1,6 @@
 import React from "react";
 import BannerModule from "./Banner.module.css";
+import Form from "./Form";
 import SearchBar from "./SearchBar";
 
 function Banner() {
@@ -8,7 +9,8 @@ function Banner() {
       <div className={BannerModule.p1}>
         <p>12K Jobs in 200 countries</p>
       </div>
-      <SearchBar />
+      {/* <SearchBar /> */}
+      <Form />
       <div className={BannerModule.p}>
         <p>Popular Searches: Finance Manager Business Manager</p>
       </div>
